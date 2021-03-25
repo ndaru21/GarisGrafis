@@ -1,0 +1,72 @@
+footer {
+    background: url(../images/footer-pattern.png);
+    padding-top: 20px;
+    background-size: cover;
+}
+
+.footer-heading {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #343A40;
+}
+
+.pay-method-image {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.footer-socmed>li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-socmed>li>a {
+    font-size: 30px;
+}
+
+#facebook {
+    color: #3B579D;
+}
+
+#instagram {
+    color: #0C5285;
+}
+
+#whatsapp {
+    color: #1AD03F;
+}
+
+#line {
+    color: #00B300;
+}
+
+.garis-grafis-map {
+    width: 100%;
+    height: 200px;
+}
+
+#second-footer {
+    background: #343A40;
+    padding: 10px 5%;
+}
+
+#second-footer>p {
+    font-size: 17px;
+    color: white;
+}
+
+@media screen and (max-width: 380px) {
+    footer {
+        margin-top: 5%;
+    }
+
+    .footer-heading {
+        font-size: 17px;
+        margin-bottom: 20px;
+        color: #343A40;
+    }
+
+    .footer-category {
+        margin-bottom: 30px;
+    }
+}
